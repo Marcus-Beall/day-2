@@ -1,0 +1,106 @@
+header { text-align: center;
+background-color: maroon;
+text-decoration-style: wavy;
+font-style: oblique;
+font-size: 40px;
+}
+
+
+
+main { text-align: left;
+color: lightslategrey;
+padding-left: 40%;
+padding-right: 10%;
+animation: pulse 10s infinite;
+padding-bottom: 20%;
+}
+
+.column1 {
+  float: left;
+  width: 80%;
+}
+
+.column2 {
+  float: right;
+  width: 20%;
+}
+
+body {
+  background-color: black;
+}
+
+section {
+ color: lightslategrey;
+  text-align: left;
+  animation: pulse 10s infinite;
+}
+
+.pic {
+  height: 0px;
+  width: 500px;
+  background-color: black;
+ align-content: center;
+}
+
+.pic0 {
+  height: 150px;
+  width: 100%;
+  background-color: maroon;
+}
+
+*{
+  margin:0;
+}
+
+html, body {
+  height:100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -150px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.page-wrap:after, .site-footer{
+  height: 150px;
+}
+
+.row1{
+  margin-top: 5%;
+}
+
+h2 {
+  font-size: 40px;
+  font-size-adjust: .3;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-size-adjust: .3;
+}
+
+p {
+  line-height: 180%;
+}
+
+.subhead {
+  initial-letter: 2;
+}
+
+@keyframes pulse {
+  0% {
+    color: lightslategray;
+  }
+  50% {
+   color: lightgreen;
+  }
+  100% {
+    color: lightslategray;
+  }
+}
